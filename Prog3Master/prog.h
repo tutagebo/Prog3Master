@@ -6,8 +6,8 @@ int prog102();
 int prog103();
 int prog104();
 int prog105();
-int prog106();
-int prog107();
-int prog108();
+int prog201();
+int prog202();
+int prog203();
 
 #endif

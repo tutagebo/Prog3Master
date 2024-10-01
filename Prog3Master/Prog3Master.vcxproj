@@ -132,10 +132,19 @@
     <ClCompile Include="prog0103.cpp" />
     <ClCompile Include="prog0104.cpp" />
     <ClCompile Include="prog0105.cpp" />
+    <ClCompile Include="prog0201.cpp" />
+    <ClCompile Include="prog0202.cpp" />
+    <ClCompile Include="prog0204.cpp" />
+    <ClCompile Include="prog0205.cpp" />
+    <ClCompile Include="prog203.cpp" />
     <ClCompile Include="Prog3Master.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data.txt" />
+    <Text Include="log.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,7 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="ソース ファイル\prog1">
+    <Filter Include="ソース ファイル\prog02">
+      <UniqueIdentifier>{98d9bf62-d39b-44ac-99d5-72f9a16dc2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\prog01">
       <UniqueIdentifier>{c42d5c84-4bf5-4487-add0-4c656bf70a83}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -22,24 +25,47 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="prog0101.cpp">
-      <Filter>ソース ファイル\prog1</Filter>
+      <Filter>ソース ファイル\prog01</Filter>
     </ClCompile>
     <ClCompile Include="prog0102.cpp">
-      <Filter>ソース ファイル\prog1</Filter>
+      <Filter>ソース ファイル\prog01</Filter>
     </ClCompile>
     <ClCompile Include="prog0103.cpp">
-      <Filter>ソース ファイル\prog1</Filter>
+      <Filter>ソース ファイル\prog01</Filter>
     </ClCompile>
     <ClCompile Include="prog0104.cpp">
-      <Filter>ソース ファイル\prog1</Filter>
+      <Filter>ソース ファイル\prog01</Filter>
     </ClCompile>
     <ClCompile Include="prog0105.cpp">
-      <Filter>ソース ファイル\prog1</Filter>
+      <Filter>ソース ファイル\prog01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog0201.cpp">
+      <Filter>ソース ファイル\prog02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog0202.cpp">
+      <Filter>ソース ファイル\prog02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog203.cpp">
+      <Filter>ソース ファイル\prog02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog0204.cpp">
+      <Filter>ソース ファイル\prog02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog0205.cpp">
+      <Filter>ソース ファイル\prog02</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prog.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="log.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
   </ItemGroup>
 </Project>

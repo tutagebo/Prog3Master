@@ -6,7 +6,7 @@
 
 int main()
 {
-	prog105();
+	prog203();
 	return 0;
 }
 
