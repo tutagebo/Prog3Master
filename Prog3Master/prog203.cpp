@@ -18,13 +18,13 @@ int prog203() {
     while (fscanf_s(readFp, "%d", &numArray[count]) != EOF)count++;
 
     for (int x : targetNums) {
-        int i;
+        int i=0;
         LARGE_INTEGER frequency;
         QueryPerformanceFrequency(&frequency);
         LARGE_INTEGER start, end;
         QueryPerformanceCounter(&start);
         //
-        for (i = 0; i < 10000;i++) {
+        for (; i < 10000;i++) {
             if (x == numArray[i]) {
                 printf("%d %d ", x, i);
                 break;
