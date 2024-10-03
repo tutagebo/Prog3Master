@@ -35,4 +35,18 @@ int dequeue() {
 	int tmp = que[head++];
 	head = (head >= QueueMAX) ? 0 : head;
 	return tmp;
-}int prog205() {	queueInitialize();	char tmp;	for (;;) {		scanf_s("%c\n", &tmp);		if ('0' <= tmp && tmp <= '9') {			enqueue((int)tmp);		}else{			printf("%c\n", dequeue());		}	}	return 0;}
+}
+
+int prog205() {
+	queueInitialize();
+	char tmp;
+	for (;;) {
+		scanf_s("%c\n", &tmp);
+		if ('0' <= tmp && tmp <= '9') {
+			enqueue((int)(tmp-'0'));
+		}else{
+			printf("%c\n", dequeue());
+		}
+	}
+	return 0;
+}
