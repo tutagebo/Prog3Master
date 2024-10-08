@@ -3,10 +3,9 @@
 #pragma warning(disable:4996)
 
 int prog201() {
-    char Filename[FILENAME_MAX];
     FILE *readFp, *writeFp;
     int numArray[1000];
-    int count = 0, targetNum;
+    int count = 0;
 
     if ((readFp = fopen("data.txt", "r")) == NULL) {
         printf("Not found such as ReadFile");

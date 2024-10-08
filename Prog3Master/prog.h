@@ -11,6 +11,9 @@ int prog202();
 int prog203();
 int prog204();
 int prog205();
+int prog301();
+int prog302();
+int prog303();
 
 
 #endif

@@ -19,6 +19,9 @@
     <Filter Include="ソース ファイル\prog01">
       <UniqueIdentifier>{c42d5c84-4bf5-4487-add0-4c656bf70a83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\prog03">
+      <UniqueIdentifier>{af9f9462-e720-4bbb-9a40-1f2a59a86ad7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Prog3Master.cpp">
@@ -54,6 +57,12 @@
     <ClCompile Include="prog0205.cpp">
       <Filter>ソース ファイル\prog02</Filter>
     </ClCompile>
+    <ClCompile Include="prog0301.cpp">
+      <Filter>ソース ファイル\prog03</Filter>
+    </ClCompile>
+    <ClCompile Include="prog0302.cpp">
+      <Filter>ソース ファイル\prog03</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prog.h">
@@ -65,6 +74,9 @@
       <Filter>リソース ファイル</Filter>
     </Text>
     <Text Include="log.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="popu.txt">
       <Filter>リソース ファイル</Filter>
     </Text>
   </ItemGroup>
