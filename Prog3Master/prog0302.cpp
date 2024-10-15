@@ -48,7 +48,9 @@ void enqueue(queue* queue, char* name, int population, double area) {
     }
     queue->tail->next = add;
     queue->tail = add;
-}record* dequeue(queue* queue) {
+}
+
+record* dequeue(queue* queue) {
     //キューが空なら何もせずに関数終了
     if (queue->head == NULL) {
         printf("queue is empty \n");
@@ -68,12 +70,14 @@ void enqueue(queue* queue, char* name, int population, double area) {
     free(queue->head);
     queue->head = tmpNext;
     return drecord;
-}
+}
+
 
 int prog302() {
     //queueを初期化
     queue queue;
-    initialize(&queue);    FILE* readFp;
+    initialize(&queue);
+    FILE* readFp;
     record pref[47] = {};
 
     if ((readFp = fopen("popu.txt", "r")) == NULL) {
@@ -93,4 +97,5 @@ int prog302() {
         printf("%s %d %lf\n", the_record->name, the_record->population, the_record->area);
     }
     fclose(readFp);
-    return 0;}
+    return 0;
+}

@@ -13,7 +13,10 @@ int prog204();
 int prog205();
 int prog301();
 int prog302();
-int prog303();
+int prog401();
+int prog402();
+int prog403();
+int prog404();
 
 
 #endif

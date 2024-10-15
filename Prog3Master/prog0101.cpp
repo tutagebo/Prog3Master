@@ -6,12 +6,11 @@ int prog101() {
 	bool flag = true;
 	long long target = 9007199254740997;
 	double targetSqrt;
-
+	//
 	LARGE_INTEGER frequency;
 	QueryPerformanceFrequency(&frequency);
 	LARGE_INTEGER start, end;
 	QueryPerformanceCounter(&start);
-
 	// kokokara
 	targetSqrt = floor(sqrt(target));
 	for (int i = 3; i < targetSqrt; i++) {

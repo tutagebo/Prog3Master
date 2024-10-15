@@ -138,8 +138,11 @@
     <ClCompile Include="prog0205.cpp" />
     <ClCompile Include="prog0301.cpp" />
     <ClCompile Include="prog0302.cpp" />
+    <ClCompile Include="prog0401.cpp" />
+    <ClCompile Include="prog0402.cpp" />
     <ClCompile Include="prog203.cpp" />
     <ClCompile Include="Prog3Master.cpp" />
+    <ClCompile Include="prog403.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prog.h" />
