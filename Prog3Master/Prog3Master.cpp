@@ -1,14 +1,14 @@
 ﻿// Prog3Master.cpp : このファイルには 'main' 関数が含まれています。プログラム実行の開始と終了がそこで行われます。
 //
 
-#include <iostream>
-#include "prog.h"
+//#include <iostream>
+//#include "prog.h"
 
-int main()
-{
-	prog403();
-	return 0;
-}
+//int main()
+//{
+//	prog501();
+//	return 0;
+//}
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
 // プログラムのデバッグ: F5 または [デバッグ] > [デバッグの開始] メニュー

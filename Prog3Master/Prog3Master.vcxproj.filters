@@ -25,6 +25,9 @@
     <Filter Include="ソース ファイル\prog04">
       <UniqueIdentifier>{af4ae04c-3e78-4219-b4bf-2c3467ba323b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\prog05">
+      <UniqueIdentifier>{a247c4e9-634a-44f4-a05f-a282e00946f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Prog3Master.cpp">
@@ -75,6 +78,9 @@
     <ClCompile Include="prog403.cpp">
       <Filter>ソース ファイル\prog04</Filter>
     </ClCompile>
+    <ClCompile Include="prog0501.cpp">
+      <Filter>ソース ファイル\prog05</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prog.h">
@@ -91,5 +97,16 @@
     <Text Include="popu.txt">
       <Filter>リソース ファイル</Filter>
     </Text>
+    <Text Include="data_small.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="data_huge.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tree.xls">
+      <Filter>リソース ファイル</Filter>
+    </None>
   </ItemGroup>
 </Project>

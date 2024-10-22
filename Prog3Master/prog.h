@@ -16,7 +16,7 @@ int prog302();
 int prog401();
 int prog402();
 int prog403();
-int prog404();
+int prog501();
 
 
 #endif
