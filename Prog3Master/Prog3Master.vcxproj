@@ -144,6 +144,7 @@
     <ClCompile Include="prog203.cpp" />
     <ClCompile Include="Prog3Master.cpp" />
     <ClCompile Include="prog403.cpp" />
+    <ClCompile Include="prog601.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prog.h" />

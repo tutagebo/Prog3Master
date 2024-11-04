@@ -28,6 +28,9 @@
     <Filter Include="ソース ファイル\prog05">
       <UniqueIdentifier>{a247c4e9-634a-44f4-a05f-a282e00946f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\prog6">
+      <UniqueIdentifier>{90d629a1-1145-45ab-8d5c-f486fb12dc9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Prog3Master.cpp">
@@ -80,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="prog0501.cpp">
       <Filter>ソース ファイル\prog05</Filter>
+    </ClCompile>
+    <ClCompile Include="prog601.cpp">
+      <Filter>ソース ファイル\prog6</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
