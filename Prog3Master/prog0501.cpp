@@ -95,7 +95,7 @@ int search_node(node* p1, int score) {
 		return search_node(p1->right, score); // 右部分木に移動
 }
 
-void main() {
+void prog501() {
 	int target_ary[10] = {
 		30391024, 328291059, 501372422, 637875300, 311223120,
 		603117998, 621736584, 140666598, 31012956, 935691960

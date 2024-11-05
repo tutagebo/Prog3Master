@@ -31,6 +31,9 @@
     <Filter Include="ソース ファイル\prog6">
       <UniqueIdentifier>{90d629a1-1145-45ab-8d5c-f486fb12dc9c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\prog07">
+      <UniqueIdentifier>{bad18ece-0b32-417c-bbee-a3891ba75d87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Prog3Master.cpp">
@@ -87,6 +90,9 @@
     <ClCompile Include="prog601.cpp">
       <Filter>ソース ファイル\prog6</Filter>
     </ClCompile>
+    <ClCompile Include="prog0701.cpp">
+      <Filter>ソース ファイル\prog07</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="prog.h">
@@ -107,6 +113,12 @@
       <Filter>リソース ファイル</Filter>
     </Text>
     <Text Include="data_huge.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="random_10k.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="random_50k.txt">
       <Filter>リソース ファイル</Filter>
     </Text>
   </ItemGroup>
