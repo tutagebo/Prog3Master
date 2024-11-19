@@ -142,6 +142,8 @@
     <ClCompile Include="prog0402.cpp" />
     <ClCompile Include="prog0501.cpp" />
     <ClCompile Include="prog0701.cpp" />
+    <ClCompile Include="prog0801.cpp" />
+    <ClCompile Include="prog0901.cpp" />
     <ClCompile Include="prog203.cpp" />
     <ClCompile Include="Prog3Master.cpp" />
     <ClCompile Include="prog403.cpp" />
