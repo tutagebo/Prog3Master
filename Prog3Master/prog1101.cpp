@@ -27,7 +27,27 @@ void swap(int* a, int* b) {
 	*a = *b;
 	*b = temp;
 	return;
-}void Merge(int D[], int M[], int left, int mid, int right) {	int x = left, y = mid + 1;	for (int i = 0; i <= right - left; i++) {		if (x == mid + 1)M[i] = D[y++];		else if (y == right + 1)M[i] = D[x++];		else if (D[x] <= D[y])M[i] = D[x++];		else M[i] = D[y++];	}	for (int i = 0; i <= right - left; i++)D[left + i] = M[i];}void MergeSort(int D[], int M[], int left, int right) {	int mid = (left + right) / 2;	if (left < mid)MergeSort(D, M, left, mid);	if (mid + 1 < right)MergeSort(D, M, mid + 1, right);	Merge(D, M, left, mid, right);}int main(void) {
+}
+
+void Merge(int D[], int M[], int left, int mid, int right) {
+	int x = left, y = mid + 1;
+	for (int i = 0; i <= right - left; i++) {
+		if (x == mid + 1)M[i] = D[y++];
+		else if (y == right + 1)M[i] = D[x++];
+		else if (D[x] <= D[y])M[i] = D[x++];
+		else M[i] = D[y++];
+	}
+	for (int i = 0; i <= right - left; i++)D[left + i] = M[i];
+}
+
+void MergeSort(int D[], int M[], int left, int right) {
+	int mid = (left + right) / 2;
+	if (left < mid)MergeSort(D, M, left, mid);
+	if (mid + 1 < right)MergeSort(D, M, mid + 1, right);
+	Merge(D, M, left, mid, right);
+}
+
+int main(void) {
 	const int D_SIZE = 10 * 1000;
 	int D[D_SIZE] = {};
 	FILE* fpi;
@@ -42,4 +62,5 @@ void swap(int* a, int* b) {
 	PrintD(D, D_SIZE);
 	printf("hash value = %d", hash_func(D, D_SIZE));
 	free(M);
-}
+}
+
