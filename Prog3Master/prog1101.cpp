@@ -58,11 +58,11 @@ int main(void) {
 	FILE* fpi;
 	fopen_s(&fpi, "city_population.txt", "r");
 	if (fpi == NULL) {
-		printf("error of reading file.\n");
+		printf("読み込みエラーです。¥n");
 		return -1;
 	}
 	int D_SIZE = 1692;
-	int target = 5;
+	int target = 9;
 	record* D = (record*)(malloc(sizeof(record) * D_SIZE));
 	if (D == NULL) {
 		exit(1);
@@ -79,13 +79,13 @@ int main(void) {
 		fscanf_s(fpi, "%lf", &D[i].data[7]);
 		fscanf_s(fpi, "%lf", &D[i].data[8]);
 		double sum = 0;
-		for (int j = 0; j < 9; j++)sum += D[i].data[j];
-		D[i].data[9] = sum / 9;
+		for (int j = 3; j < 7; j++)sum += D[i].data[j];
+		D[i].data[9] = sum / 4;
 	}
 	record* M = (record*)malloc(sizeof(record) * D_SIZE);
 	MergeSort(D, M, 0, D_SIZE - 1, target);
-	for (int i = 101; i < 111; i++) {
-		printf("%s %s: %lf\n", D[i].city, D[i].country, D[i].data[target]);
+	for (int i = D_SIZE - 1, j = 1; i >= 0; j++, i--) {
+		printf("%d: %s %s: %lf\n", j, D[i].city, D[i].country, D[i].data[target]);
 	}
 	free(M);
 }
